@@ -34,7 +34,7 @@ export default function Navigation() {
       {/* Backdrop overlay when mobile menu is open */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/80 z-[60] md:hidden"
+          className="fixed inset-0 bg-black/95 z-[60] md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
@@ -109,11 +109,11 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden fixed top-20 left-0 right-0 bg-dark/98 backdrop-blur-sm z-[75] transition-all duration-300 overflow-hidden ${
+          className={`md:hidden fixed top-20 left-0 right-0 bg-dark z-[75] transition-all duration-300 overflow-hidden border-t border-primary/20 ${
             isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="px-4 pt-4 pb-6 space-y-2 max-h-[calc(100vh-5rem)] overflow-y-auto">
+          <div className="px-4 pt-4 pb-6 space-y-2 max-h-[calc(100vh-5rem)] overflow-y-auto bg-dark">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
