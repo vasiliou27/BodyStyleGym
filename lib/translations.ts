@@ -183,7 +183,7 @@ export const translations = {
       provenResults: "Αποδεδειγμένα Αποτελέσματα",
       provenResultsDesc: "Ενώσου με χιλιάδες που έχουν μεταμορφώσει τη ζωή τους",
       readyTo: "ΕΤΟΙΜΟΣ ΝΑ",
-      elevate: "ΑΝΕΒΕΙΣ",
+      elevate: "ΑΝΕΒΑΣΕΙΣ",
       yourFitness: "ΤΗΝ ΦΥΣΙΚΗ ΣΟΥ ΚΑΤΑΣΤΑΣΗ;",
       ctaJoin: "Εγγράψου στο Body Style Gym σήμερα και ξεκίνα το ταξίδι μεταμόρφωσής σου",
       viewMemberships: "Δες τις Συνδρομές",
