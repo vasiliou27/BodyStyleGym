@@ -68,9 +68,6 @@ export default function Memberships() {
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
             {t.memberships.subtitle}
           </p>
-          <p className="mt-4 text-sm text-primary">
-            {t.memberships.note}
-          </p>
         </div>
       </section>
 

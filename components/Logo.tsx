@@ -11,7 +11,7 @@ export default function Logo() {
         </span>
       </div>
       
-      {/* Dumbbell icon above TYLE */}
+      {/* Dumbbell icon */}
       <div className="flex flex-col items-center -mb-2 sm:-mb-3">
         <div className="w-4 sm:w-5 h-0.5 bg-black border border-primary"></div>
         <div className="w-5 sm:w-6 h-1 bg-black border border-primary my-0.5"></div>
@@ -21,9 +21,9 @@ export default function Logo() {
       {/* TYLE text */}
       <span className="text-lg sm:text-xl md:text-2xl font-light text-gray-300 -mb-2 sm:-mb-3">TYLE</span>
       
-      {/* BODY vertical text - positioned to left of GYM */}
-      <div className="flex flex-col -ml-1 sm:-ml-2">
-        <span className="text-[8px] sm:text-[10px] md:text-xs font-bold text-black [text-shadow:0.5px_0.5px_0_#00ff00,-0.5px_-0.5px_0_#00ff00] leading-tight">
+      {/* BODY vertical text */}
+      <div className="flex flex-col -ml-2">
+        <span className="text-xs font-bold text-black [text-shadow:1px_1px_0_#00ff00,-1px_-1px_0_#00ff00] leading-tight">
           B<br />O<br />D<br />Y
         </span>
       </div>
@@ -38,4 +38,3 @@ export default function Logo() {
     </div>
   );
 }
-
